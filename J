@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=1
+      console.log("Hai +a+a")
+       document.write('Hai+ a+a', "<br>")
+       document.write(`hai+ ${a+a}`)
+        console.log(`hai +${a+a}`)
+    </script>
+    <script>
+        //let a="reactjs student"
+        //let b=" sai kumar"
+        //console.log(`${a+" = "+b}`)
+        //document.write(`${a+"="+b}`)
+    </script>
+    <script>
+       // let a="sai"
+       // let b="kumar"
+       // let age=30
+       // console.log(`I am ${a+" "+b} my age is ${age} years old ` )
+       // document.write(`I am ${a+" "+b} my age is ${age} years old ` )
+    </script>
+    <script>
+
+    </script>
+</body>
+</html>
+1)static websites: remains same to everyone
+ex:fb login 
+2)dynamiv website: change to every one(data)
+1)you tube
+2)criczbuzz
+3)google maps #time-time#
+
+variables:
+---1)static typed and dynamic type:
+1)variables
+2)variables are used to store the data(any kind of data)
+
+variables
+1)case-sensitive
+2)start with letters,_(under score) ,$(dollersign)
+3)cant stsrt with numbers
+
+let _a3 = "jahnavi";
+        console.log(_a3);
+        document.write(_a3);
+var fav_std="tanuj"
+        fav_std="aaru"
+        fav_std="aanvi"
+        console.log(fav_std)
+        document.write(fav_std)
+let a=1;
+        a=5;
+        document.write(a+a);
+        console.log(a+a);
+const a=1;
+        a=5;
+        document.write(a+a);
+        console.log(a+a);
+ var a="jaanu"
+        {
+            var a="tanuj"
+            console.log(a)
+        }
+ata types:
+1)Dynamic data types
+two types:
+1.primitive data type
+2.non-primitive data types:obejects,arrays
+
+to check the data type-typeof
+
+1.primitive data type: predefined; we can store single values
+2.numbers:integers,floats
+3.String:stream of character which will be enclosed in quotes
+---single,double,backtick quotes;
+4.boolean: true or false
+5.null:empty values or null values
+6.undefined:---declared variable with no values.
+
+1)Numbers:-1,-2,1,2
+
