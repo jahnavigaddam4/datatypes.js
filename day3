@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let a=5
+    let b=10
+    if(a<b){
+        document.write("hi tanuj ","<br>")
+        }
+        document.write("welcome to USA")
+    </script>
+</body>  
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        age=prompt("enter your age?")
+        name=prompt("enter your name?")
+        if(age<18){
+
+            alert(name+ "you are too young to marry")
+        }else if(age>35){
+            alert(name+ "your are too old to marry")
+        }else{
+            alert(name + "perfect age to marry")
+        }
+    alert("welcome to USA")
+        </script>
+</body>
+</html>
+conditional statement:
+to make the set of instruction execute only when the given condition is truw>
+used to decide where the code have to be executed or skip
+it executes in sequence
+Block of code:set of instruction
+it will execute only when the specific condition is true
+condition:an expression that evaluates an result(true or false)
+ex:console.log(5>6)
+methodS:
+if:oly one possible condition
+it the condition is true it will execute ther wise it skip
+Syntax:
+if(condition){
+ block of code
+}
