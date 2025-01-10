@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = parseInt(prompt("enter a number"))
+        if(number %2==0 && number %3==0){
+         document.write("number is divisible by 2 and 3 both")
+        }else{
+            document.write("it is not divisible by 2and 3 and both")
+        }
+    </script>
+</body>
+</html>
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     let a = parseInt(prompt("enter a number"))  
+     let b = parseInt(prompt("enter a number"))
+     let c = parseInt(prompt("enter a number"))
+      if(a>b && a>c){
+        document.write(`${a} is greater than b and c`)
+      }else if(b>a && b>c){
+        document.write(`${b} is grater a and c`)
+      }else{
+        document.write(`${c} is greater than a and b`)
+      }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Total number of working days"))
+        let b = parseInt(prompt("total number of days for absent"))
+        let c=a-b
+        let d=(c/a)*100
+        if(d<75){
+            document.write("You are not eligible to write the exam as your attendance percentage is "+d+"%")
+        }else{
+            document.write("You are eligible to write the exam as your attendance percentage is "+d+"%")
+        }
+    </script>
+</body>
+</html>
