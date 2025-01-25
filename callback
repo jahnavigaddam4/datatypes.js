@@ -1,0 +1,88 @@
+
+25/01/25 Saturday
+
+ callback functions:
+--you can pass the callback function as an argument to another function
+ execution:
+--the function receving the callback will execute the callback at some point during execution (often at the end or after an asynchronous operation is done)
+ 
+example:
+--function manifunction(callback){
+console.log("executing main function");
+callback()
+// here we call the call back function
+}
+function callbackFunction(){
+console.log("callback function executed")
+}
+manifunction(callbackFunction);
+exp:
+mainfunction takes a parameter callback
+callbackFunction is passed as an argument to mainfunction
+inside the main function , the callback function
+
+
+
+---output:-
+mainfunction(callbackFunction);
+it will execute the code inside the mainfunction-
+
+it will print("Executing main function");
+then it reaches to callback(); where it call the function which is passed to mainfunction (callbackfunction);
+
+
+
+ex2:
+passing a named function as a callback;
+
+function greet(name ,callback){
+document.write("hello" +name);
+callback();
+//executes the call back function after greeting
+}
+function goodbye()[
+document.erite("Goodbye!")
+}
+greet("jaanu" ,goodbye);
+
+ ex:3
+function greet(name ,callback){
+document.write("hello" +name);
+callback();//executes the call back function after greeting
+}
+greet("jaanu" , function(){
+document.write("goodbye!")
+})
+//anonymous function as function
+
+
+ex:
+we did not pass a named function like(goodbye);
+instead of that we defined an anonymous function directly with in the greet function call
+
+
+ex4:
+asynchronous callback eith setTimeout
+
+function greet(name , callback){
+document.write("hello"+name);
+callback()
+//executes the callback
+
+
+function fetchData(callback){
+document.write("Fetching data..."
+setTimeout(function()){
+document.erite("Data fetched");
+callback();
+},2000);
+}
+
+function processdata(){
+document.write("processing the fetched data...")
+}
+fetchData(processData);
+function registerUser(username,email,callback){
+console.log("registering user" +username);
+setTimerout(function(){
+console.log("user" + username +"rejistered successfully")
