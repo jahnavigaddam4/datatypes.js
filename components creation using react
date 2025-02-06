@@ -1,0 +1,33 @@
+import React from 'react';
+import './App.css';
+
+const Welcome = () => <h1 className='message'>Hello jahnavi</h1>;
+
+function App() {
+  return (
+    <div className="App">
+      <Welcome />
+    </div>
+  );
+}
+
+export default App;
+/* App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.message {
+  font-size: 32px;
+  color: #ffffff; /* Text color */
+  font-weight: bold;
+  border: 2px solid #00ccb8;
+  padding: 20px;
+  background-color: #cc00a3; /* Background color for the text */
+  border-radius: 10px;
+}
